@@ -1,4 +1,4 @@
-package ru.gasu.annaaalexeevna;
+package ru.gasu.annaaalexeevna.serialization;
 
 import java.io.Serializable;
 import java.util.List;

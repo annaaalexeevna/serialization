@@ -1,11 +1,8 @@
-package ru.gasu.annaaalexeevna;
+package ru.gasu.annaaalexeevna.serialization;
 
 import org.junit.Test;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.Serializable;
-import java.lang.reflect.Array;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
