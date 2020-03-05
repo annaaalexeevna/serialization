@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Objects;
 
 public class Animal implements Serializable {
-    private String name;
-    private TypeOfAnimals type;
-    private int age;
-    private List<Food> arrayOfFood;
+    private final String name;
+    private final TypeOfAnimals type;
+    private final int age;
+    private final List<Food> arrayOfFood;
 
     public Animal(String name, TypeOfAnimals type, int age, List<Food> arrayOfFood) {
         this.name = name;
